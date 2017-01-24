@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"), require("material-ui"), require("material-ui/svg-icons/navigation"));
+		module.exports = factory(require("react"), require("material-ui"), require("material-ui/svg-icons/navigation/ChevronLeft"), require("material-ui/svg-icons/navigation/ChevronRight"));
 	else if(typeof define === 'function' && define.amd)
-		define([, , ], factory);
+		define([, , , ], factory);
 	else if(typeof exports === 'object')
-		exports["material-ui-pagination"] = factory(require("react"), require("material-ui"), require("material-ui/svg-icons/navigation"));
+		exports["material-ui-pagination"] = factory(require("react"), require("material-ui"), require("material-ui/svg-icons/navigation/ChevronLeft"), require("material-ui/svg-icons/navigation/ChevronRight"));
 	else
-		root["material-ui-pagination"] = factory(root[undefined], root[undefined], root[undefined]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__) {
+		root["material-ui-pagination"] = factory(root[undefined], root[undefined], root[undefined], root[undefined]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -68,7 +68,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _materialUi = __webpack_require__(2);
 
-	var _navigation = __webpack_require__(3);
+	var _ChevronLeft = __webpack_require__(3);
+
+	var _ChevronLeft2 = _interopRequireDefault(_ChevronLeft);
+
+	var _ChevronRight = __webpack_require__(4);
+
+	var _ChevronRight2 = _interopRequireDefault(_ChevronRight);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -265,7 +271,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              onTouchTap: function onTouchTap(e) {
 	                return _this2.handleChangePage(currentPageIndex - 1, e);
 	              } },
-	            _react2.default.createElement(_navigation.ChevronLeft, null)
+	            _react2.default.createElement(_ChevronLeft2.default, null)
 	          ),
 	          _react2.default.createElement(
 	            _materialUi.IconButton,
@@ -274,7 +280,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              onTouchTap: function onTouchTap(e) {
 	                return _this2.handleChangePage(currentPageIndex + 1, e);
 	              } },
-	            _react2.default.createElement(_navigation.ChevronRight, null)
+	            _react2.default.createElement(_ChevronRight2.default, null)
 	          )
 	        )
 	      );
@@ -326,6 +332,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_3__;
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_4__;
 
 /***/ }
 /******/ ])

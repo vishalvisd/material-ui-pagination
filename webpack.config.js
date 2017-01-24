@@ -16,9 +16,13 @@ module.exports = [{
       commonjs: "material-ui",
       commonjs2: "material-ui"
     },
-    "material-ui/svg-icons/navigation": {
-      commonjs: "material-ui/svg-icons/navigation",
-      commonjs2: "material-ui/svg-icons/navigation"
+    "material-ui/svg-icons/navigation/ChevronLeft": {
+      commonjs: "material-ui/svg-icons/navigation/ChevronLeft",
+      commonjs2: "material-ui/svg-icons/navigation/ChevronLeft"
+    },
+    "material-ui/svg-icons/navigation/ChevronRight": {
+      commonjs: "material-ui/svg-icons/navigation/ChevronRight",
+      commonjs2: "material-ui/svg-icons/navigation/ChevronRight"
     }
   },
   module: {

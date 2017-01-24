@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {IconButton, MenuItem, SelectField} from "material-ui";
-import {ChevronLeft, ChevronRight} from "material-ui/svg-icons/navigation";
+import ChevronLeft from "material-ui/svg-icons/navigation/ChevronLeft";
+import ChevronRight from "material-ui/svg-icons/navigation/ChevronRight";
 
 const styles = {
   pagination: {
