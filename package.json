@@ -1,5 +1,5 @@
 {
-  "name": "material-ui-pagination",
+  "name": "react-material-ui-pagination",
   "version": "1.0.0",
   "description": "React Material-ui pagination component",
   "main": "index.js",
