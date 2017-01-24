@@ -1,10 +1,10 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"), require("material-ui"), require("material-ui/svg-icons/navigation/ChevronLeft"), require("material-ui/svg-icons/navigation/ChevronRight"));
+		module.exports = factory(require("react"), require("material-ui"), require("material-ui/svg-icons/navigation/chevron-left"), require("material-ui/svg-icons/navigation/chevron-right"));
 	else if(typeof define === 'function' && define.amd)
 		define([, , , ], factory);
 	else if(typeof exports === 'object')
-		exports["material-ui-pagination"] = factory(require("react"), require("material-ui"), require("material-ui/svg-icons/navigation/ChevronLeft"), require("material-ui/svg-icons/navigation/ChevronRight"));
+		exports["material-ui-pagination"] = factory(require("react"), require("material-ui"), require("material-ui/svg-icons/navigation/chevron-left"), require("material-ui/svg-icons/navigation/chevron-right"));
 	else
 		root["material-ui-pagination"] = factory(root[undefined], root[undefined], root[undefined], root[undefined]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__) {
@@ -68,13 +68,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _materialUi = __webpack_require__(2);
 
-	var _ChevronLeft = __webpack_require__(3);
+	var _chevronLeft = __webpack_require__(3);
 
-	var _ChevronLeft2 = _interopRequireDefault(_ChevronLeft);
+	var _chevronLeft2 = _interopRequireDefault(_chevronLeft);
 
-	var _ChevronRight = __webpack_require__(4);
+	var _chevronRight = __webpack_require__(4);
 
-	var _ChevronRight2 = _interopRequireDefault(_ChevronRight);
+	var _chevronRight2 = _interopRequireDefault(_chevronRight);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -271,7 +271,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              onTouchTap: function onTouchTap(e) {
 	                return _this2.handleChangePage(currentPageIndex - 1, e);
 	              } },
-	            _react2.default.createElement(_ChevronLeft2.default, null)
+	            _react2.default.createElement(_chevronLeft2.default, null)
 	          ),
 	          _react2.default.createElement(
 	            _materialUi.IconButton,
@@ -280,7 +280,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	              onTouchTap: function onTouchTap(e) {
 	                return _this2.handleChangePage(currentPageIndex + 1, e);
 	              } },
-	            _react2.default.createElement(_ChevronRight2.default, null)
+	            _react2.default.createElement(_chevronRight2.default, null)
 	          )
 	        )
 	      );
